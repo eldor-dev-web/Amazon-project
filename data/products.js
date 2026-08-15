@@ -656,5 +656,5 @@ const products = [
       "apparel",
       "mens"
     ]
-  }
+  },
 ];
