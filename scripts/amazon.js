@@ -43,6 +43,8 @@ ${product.getPrice()}
 </select>
 </div>
 
+${product.extraInfoHTML()}
+
 <div class="product-spacer"></div>
 
 
