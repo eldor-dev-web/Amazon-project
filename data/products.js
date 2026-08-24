@@ -83,7 +83,7 @@ const object3 = {
  method: () => {
   console.log(this);
  }
-}
+} 
 object3.method();
   */
 
