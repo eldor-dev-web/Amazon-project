@@ -95,7 +95,7 @@ export function loadProductsFetch() {
     ).then((response) => {
       return response.json();
     }).then((productData) => {
-   products = productsData.map((productDetails) => {
+   products = productData.map((productDetails) => {
     if (productDetails.type === 'clothing') {
       return new Clothing(productDetails);
     }

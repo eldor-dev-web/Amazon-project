@@ -11,9 +11,8 @@ async function loadPage() {
 
     await loadProductsFetch(); 
 
-    const value = await new Promise((resolve, reject) => {
-        throw 'error2';
-    loadCart(() => {
+    await new Promise((resolve, reject) => {
+        loadCart(() => {
         //reject('error3')
         resolve('value3');
     });
@@ -26,7 +25,6 @@ async function loadPage() {
    renderOrderSummary();
    renderPaymentSummary();
 
-  
 }
 loadPage();
 
